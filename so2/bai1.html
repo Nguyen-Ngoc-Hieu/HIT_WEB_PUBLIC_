@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello</title>
+  </head>
+  <style>
+    body{
+      background-color: #ffe6ff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login{
+      background-color: #ccffee;
+      width: 210px;
+      height:370px;
+      border: none;
+      border-radius: 20px;
+      padding: 0px 32px;
+    }
+    .login input{
+      border: 1px solid black;
+      border-radius:5px;
+      margin-bottom: 10px;
+      height: 30px;
+    }
+    .button{
+      border: 1px solid black;
+      border-radius:5px;
+      margin-bottom: 10px;
+      width: 170px;
+      height:30px;
+      background-color: #ff6600;
+      color: white;
+    }
+    .button1{
+      border: 1px solid black;
+      border-radius:5px;
+      margin-bottom: 10px;
+      width: 170px;
+      height:30px;
+      background-color: #e6ffe6
+    }
+    .login button:hover{
+      font-size: 15px;
+      color: blue;
+    }
+  </style>
+  <body>
+    <div class="login">
+      <h2>
+        Đăng nhập
+      </h2>
+      
+      <div>
+        <p>
+          Bạn có thể đăng nhập bằng
+        </p>
+        <div>
+          <button class="button1">
+            Đăng nhập với Google
+          </button>
+          <button class=button1>
+            Đăng nhập bằng facebook
+          </button>
+        </div>
+      </div>
+      
+      <div>
+        <p>
+          Hoặc điền thông tin dưới đây
+        </p>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Mật khẩu">
+        <button class="button">
+          Đăng nhập
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
